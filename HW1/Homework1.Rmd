@@ -77,7 +77,8 @@ mean(x1_na)
 **Please use R documentation to find the mean after excluding NA's (hint: `?mean`)**
 
 ```{r problem2}
-# your code here
+x1_na <- c(1:10, 50, NA)
+mean(x1_na, na.rm = TRUE)
 ```
 
 
